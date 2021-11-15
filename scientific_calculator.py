@@ -4,7 +4,6 @@ import math
 from tqdm import tqdm
 import time
   
-#Thsi function is designed for the INTRODUCTION TO OUR CALCULATOR PROGRAM
 
 def Welcome():
     print("\n\n---------------------------------------------------------",end="")
@@ -199,7 +198,7 @@ def logarithms():
         print("\n Print INVALID CHOICE!!!! \n\n")
         print("Enter a choice between 1 or 2 ")
 
-# This function  is designed for calculating the EUCLEDIAN DISTANCE BETWEEN TWO POINTS
+
 
 def Eucledian_distance():
     x1=float(input("\n Enter the x coordinate of the first point (x1) "))
