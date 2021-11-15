@@ -1,5 +1,4 @@
-# IMPORTING LIABRARIES
-# THIS CODE IS MADE BY SHOURYA PANT AND TEJAS DWIVEDI
+
 
 import math
 from tqdm import tqdm
@@ -18,7 +17,7 @@ def Welcome():
         pass
     print("----------------------------------------------------------")
 
-# This function is designed for performing the ADDITION OF n numbers
+
 
 def Addition():
     print("how many nums to add")
@@ -30,7 +29,7 @@ def Addition():
             sum+=y
     print("\n \n THE SUM OF ALL NUMBERS IS : ", sum, end="\n")  
 
-# This function is designed for performing the SUBTRACTION of n numbers
+
 
 def Subtraction():
     print("\n For How many variables You want to do subtraction?",end="\n")
@@ -58,7 +57,7 @@ def Subtraction():
                 difference=difference-int(number)
         print(" \n \n THE DIFFERENCE BETWEEN ALL THE NUMBERS ", difference, end="\n\n")
 
-# This function is designed to perform MULTIPLICATION of two or more numbers
+
 
 def Multiplication():
     print("\n How many numbers do you want to get MULTIPLY ???", end="\n")
@@ -86,7 +85,7 @@ def Multiplication():
                 result=result*float(x)
         print("\n \n THE MULTIPLICATION OF NUMBERS IS : ",result, end="\n\n")
 
-#This function is designed to perform DIVISION of two numbers
+
 
 def Division():
     print("\n 1. Do the division for the integers numbers ",end="\n")
@@ -114,7 +113,7 @@ def Division():
         print("\n ERROR!!!! ..... \n",end="\n")
         print("INVALID CHOICE PLEASE CHOOSE BETWEEN 1 OR 2", end="\n\n")
 
-# This funciton is designed for CALCULATING THE MODULUS OF the numbers
+
 
 def Modulus():
     x=float(input("\n Enter  First number : "))
@@ -122,7 +121,7 @@ def Modulus():
     modulus=x%y
     print("\n\n THE MODULUS BETWEEN TWO NUMBERS ",x ,"and", y , "is :{:.2f}".format(modulus))
 
-# This function is designed for CALCULATING THE POWERS taking BASE AND  EXPONENTIAL  values from the user
+
 
 def Powers_Exponents():
     Base=float(input("\n Enter the Base NUmber whose powers you have to calculate : "))
@@ -130,7 +129,7 @@ def Powers_Exponents():
     power=Base**exponent
     print("\n\n THE VALUE OF THE NUMBER ", Base, "TO THE POWER OF ",exponent,"is : ", power ,end="\n\n")
 
-# This function is designed to CALCULATE THE ROOTS OF A NUMBER OR 1/NTH POWER OF A NUMBER
+
 
 def Calculating_Roots():
     Number=float(input("\n Enter the number whose root you want to find : "))
@@ -143,7 +142,7 @@ def Calculating_Roots():
     else:
         print("\n THE NTH ROOT OF ", Number, "is : ", result, end="\n")
 
-# This function is designed to calculate the FACTORIAL OF A NUMBER
+
 
 def Factorial():
     factorial=1
@@ -159,7 +158,7 @@ def Factorial():
             pass
         print("\n The FACTORIAL cannot be calculated for NEGATIVE NUMBERS and DECIMAL NUMBERS !!!!!!!!!", end="\n\n")
 
-# This function is designed to calculate the TRIGNOMETRY
+
 
 def Trignometry():
     print("\n WHICH TRIGNOMETRIC FUNCTION DO YOU WANT TO USE \n\n 1. SIN \n 2. COS \n 3. TAN \n 4. SEC \n 5. COSEC \n 6. COT ", end="\n")
@@ -182,7 +181,7 @@ def Trignometry():
         print("\n\n INVALID CHOICE !!!! \n \n Please Enter a VALID CHOICE(1-6)",end="\n ")
     return(0)
 
-# This function  is designed for calculating the LOGARITHMIC VALUES
+
 
 def logarithms():
     print("\n Which type of logarithms do you want to calculate ?", end="\n")
@@ -210,7 +209,7 @@ def Eucledian_distance():
     Eucledian_distance=((x2-x1)**2 + (y2-y1)**2)**0.5
     print("\n \n THE EUCLEDIAN DISTANCE BETWEEN TWO POINTS ","(",x1,",",y1,")","and","(",x2,",",y2,")","is : ", Eucledian_distance, end="\n\n")
 
-# This function is designed to CALCULATE AREA OF DIFFERENT POLYGONS 
+ 
 
 def Area():
     print("\n Which Figure Area do you want to calculate ? \n\n 1. RECTANGLE \n 2. SQUARE \n 3. TRIANGLE \n 4. CIRCLE \n 5. REGULAR POLYGON  ", end="\n")
@@ -237,7 +236,7 @@ def Area():
     else:
         print("\n \n  INVALID CHOICE !!! PLEASE ENTER A VALID CHOICE(1-5) ",end="\n")
 
-#  THE MAIN MENU 
+ 
 
 def Calculator():
 
@@ -287,7 +286,6 @@ def Calculator():
         print("\n\n INVALID CHOICE !!!!!! ", end="\n")
         print("\n \n PLEASE ENTER A VALID CHOICE (1-12) ", end="\n\n")
 
-# THE MAIN FUNCITON
 
 if __name__=="__main__":
 
